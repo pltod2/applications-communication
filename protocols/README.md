@@ -1,0 +1,1 @@
+Specifics for client server communication as well as some protocols

@@ -1,0 +1,1 @@
+* http://blog.yld.io/2016/04/21/encrypting-communication/#.WBVcE-F95E5

@@ -15,3 +15,38 @@ A place where to learn how the applications communicate:
 * low level details - communication and network protocols  
 
 * how things are implemented in Node.js
+
+Considering that communication requires some sort of governance (gateway) the technical aspects are:
+
+* Proxy support
+
+* Authentication/Authorization
+
+* SSL/TLS termination
+
+* Encryption
+
+* Logging
+
+* Load balancing
+
+* Routing
+
+* Throttling
+
+* Lightweight orchestration
+
+
+# HANDS ON
+
+See hands-on folder 
+
+> contains Node.js code examples or references to other repositories with code examples
+
+# RESOURCES
+
+This project contains curated list with resources by topics
+
+* RESOURCES.md - general resources 
+
+* Inside each folder - resources by topic
