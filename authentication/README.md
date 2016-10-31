@@ -1,5 +1,7 @@
 Everything about authenticating communication between applications.
 
+There are many standards and types for authorization which are explored in separate folders.
+
 
 # Resources
 

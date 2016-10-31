@@ -7,3 +7,7 @@
 # Passwordless With Tokens
 
 * https://passwordless.net/
+
+* https://auth0.com/passwordless
+
+* https://auth0.com/blog/auth0-passwordless-email-authentication-and-sms-login-without-passwords/

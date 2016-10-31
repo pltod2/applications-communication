@@ -1,32 +1,52 @@
-# oAuth
+# oAuth In Brief
 
-* token based with generated token that can be revoked and allows checking what data could be read with it
+>The OAuth 2.0 authorization framework enables a third-party
+>application to obtain limited access to an HTTP service, either on
+>behalf of a resource owner by orchestrating an approval interaction
+>between the resource owner and the HTTP service, or by allowing the
+>third-party application to obtain access on its own behalf.  This
+>specification replaces and obsoletes the OAuth 1.0 protocol described
+>in RFC 5849.`
+> -- <cite>Specification: https://tools.ietf.org/html/rfc6749</cite>
 
-* acounts with two factor authentication needs oAuth authorization
+# Types
 
-## Create via Web Flow
+There are many different scenarious in which oAuth is used.
+
+## Web Flow
  
-> Normally, tokens are created via a web flow. 
-> An application sends users to GitHub to log in. 
-> GitHub then presents a dialog indicating the name of the app, 
-> as well as the level of access the app has once it’s authorized by the user. 
-> After a user authorizes access, GitHub redirects the user back to the application.
+* An application redirects users to SERVICE to log in. 
 
+* SERVICE then presents a dialog indicating the name of the app as well as the level of access the app has once it’s authorized by the user. 
 
-### Access Token for CLI
+* After a user authorizes access, the SERVICE redirects the user back to the application.
 
-* Generate this token in your github account settings and use it with curl
+# Resources
 
-### Access Token for App
+* !!! https://www.oauth.com/
 
-* Register application in your github account settings
+* !!! https://www.digitalocean.com/community/tutorials/an-introduction-to-oauth-2
 
-> First, you’ll need to register your application. 
-> Every registered OAuth application is assigned a unique Client ID and Client Secret. 
-> The Client Secret should not be shared! 
-> That includes checking the string into your repository.
-> You can fill out every piece of information however you like, 
-> except the Authorization callback URL. 
-> This is easily the most important piece to setting up your application. 
-> It’s the callback URL that GitHub returns the user to after successful authentication.
+* !!! https://developer.salesforce.com/docs/atlas.en-us.api_rest.meta/api_rest/intro_understanding_username_password_oauth_flow.htm
 
+* https://alexbilbie.com/2016/07/updated-grants-guide
+
+* https://oauth.net/articles/authentication/
+
+* Series by hueniverse
+
+> oAuth 1 - https://hueniverse.com/oauth/guide/
+
+> oAuth 2 - https://hueniverse.com/2010/05/15/introducing-oauth-2-0/
+
+* https://hueniverse.com/2012/07/26/oauth-2-0-and-the-road-to-hell/
+
+* https://github.com/oauthjs
+
+> https://github.com/oauthjs/node-oauth2-server
+
+* !!! Series Infosec Institute
+
+> http://resources.infosecinstitute.com/securing-web-apis-the-basics-with-node-js-examples/
+
+> http://resources.infosecinstitute.com/securing-web-apis-part-ii-creating-an-api-authenticated-with-oauth-2-in-node-js/

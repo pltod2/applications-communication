@@ -1,3 +1,5 @@
+STATUS: WIP
+
 # APPLICATIONS COMMUNICATIONS
 
 **The Art of How Apps Talk Each Other - An Opinionated Abstraction**
