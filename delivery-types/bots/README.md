@@ -18,6 +18,10 @@ Bots are another form of application communication in the form of third party so
 
 # Frameworks
 
+* Slack Web and RTM API client for Node and the Browser
+
+> https://github.com/smallwins/slack
+
 * Node.js bot for Slack - author custom Slack commands with Node.js
 
 > https://auth0.com/blog/slash-webtasks-all-your-chatops-belong-to-you/
@@ -25,3 +29,6 @@ Bots are another form of application communication in the form of third party so
 * Microsoft bot framework
 
 > https://dev.botframework.com/
+
+* https://github.com/mishk0/slack-bot-api
+

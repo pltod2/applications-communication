@@ -76,18 +76,6 @@ Seneca is influenced by this concept.
 
 
 
-# Deployment
-
-* https://zeit.co/
-
-* http://hook.io/
-
-* deployment strategy
-
-> https://zachholman.com/posts/deploying-software
-
-> http://12factor.net/
-
 
 # Case Studies
 

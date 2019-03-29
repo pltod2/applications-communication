@@ -4,6 +4,17 @@ While other solutions like zeit now are agnostic to the infrastructure.
 
 # Resources
 
+* Serverless with webtasks
+
+> https://auth0.com/blog/building-serverless-apps-with-webtask/
+
+> https://github.com/auth0/wt-cli
+
+> https://webtask.io/slack
+
+> https://auth0.com/blog/slash-webtasks-all-your-chatops-belong-to-you/
+
+
 * http://2014.jsconf.eu/speakers/sebastien-cevey-serverless-applications-powered-by-web-components.html
 
 > Shows 2 tier architecture no server....just client and AWS

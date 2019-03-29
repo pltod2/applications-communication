@@ -23,6 +23,10 @@ There are many different scenarious in which oAuth is used.
 
 # Resources
 
+* https://stormpath.com/blog/what-the-heck-is-oauth
+
+* https://stormpath.com/blog/talking-to-oauth2-services-with-nodejs 
+
 * !!! https://www.oauth.com/
 
 * !!! https://www.digitalocean.com/community/tutorials/an-introduction-to-oauth-2
